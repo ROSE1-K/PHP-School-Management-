@@ -109,7 +109,12 @@ CREATE TABLE `comments` (
 --
 -- Table structure for table `common_tab`
 --
-BAD BA DBAD BAD
+CREATE TABLE `common_tab` (
+  `id` int(11) NOT NULL,
+  `position` varchar(128) DEFAULT NULL,
+  `short_det` varchar(128) DEFAULT NULL,
+  `content` text DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
